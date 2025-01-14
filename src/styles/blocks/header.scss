@@ -69,6 +69,6 @@ li:last-child {
   border-radius: 8px;
 }
 
-.panel .is-active a:hover :root {
+.panel a.is-active:hover {
   color: #00acdc;
 }

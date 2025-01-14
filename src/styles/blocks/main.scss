@@ -10,7 +10,7 @@
   margin: 50px 40px;
   max-width: 944px;
 
-  &__content {
+  &__catalog {
     justify-content: center;
     align-items: center;
     display: grid;
@@ -25,19 +25,19 @@
 }
 
 @media (min-width: 488px) {
-  .container__content {
+  .main__catalog {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 768px) {
-  .container__content {
+  .main__catalog {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
-  .container__content {
+  .main__catalog {
     grid-template-columns: repeat(4, 1fr);
   }
 }
